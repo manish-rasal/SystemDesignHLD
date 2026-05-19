@@ -34,7 +34,7 @@ Design a scalable URL Shortner capable of supporting:
 
 ---
 
-# 6. APIs
+# 5. APIs
 
 ### Shorten a URL
 
@@ -74,13 +74,13 @@ HTTP 302 Redirect to original long URL
 
 ---
 
-# 8. Flow
+# 6. Flow
 
 ### 1: Users should be able to submit a long URL and receive a shortened version
 ### 2: Users should be able to access the original URL by using the shortened URL
 
 ---
-# 9. Storage Choices
+# 7. Storage Choices
 
 ## Database (SQL / NoSQL)
 
@@ -112,7 +112,7 @@ Alternatives
 
 ---
 
-# 10. Database Schema
+# 8. Database Schema
 
 ```sql
 CREATE TABLE urls(
@@ -127,7 +127,7 @@ CREATE TABLE urls(
 
 ---
 
-# 11. Core Design Concepts Used
+# 9. Core Design Concepts Used
 
 ## API Gateway
 
@@ -152,7 +152,7 @@ Populate Cache
 ---
 
 
-# 12. Scaling Strategy
+# 10. Scaling Strategy
 
 ### Service Scaling
 
